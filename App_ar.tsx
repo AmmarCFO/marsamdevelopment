@@ -223,8 +223,8 @@ const App_ar: React.FC<{ onToggleLanguage: () => void }> = ({ onToggleLanguage }
   };
   
   const translateUnitName = (name: string) => {
-      if (name.includes('M55-1')) return 'M55-1: ٢ غرف نوم';
-      if (name.includes('M55-2')) return 'M55-2: ٣ غرف نوم';
+      if (name.includes('M55-1')) return 'M55-1: ٢ غرفة و صالة';
+      if (name.includes('M55-2')) return 'M55-2: ٣ غرف و صالة';
       if (name.includes('M55-3')) return 'M55-3: استوديو';
       return name;
   };
@@ -248,7 +248,7 @@ const App_ar: React.FC<{ onToggleLanguage: () => void }> = ({ onToggleLanguage }
               المدينة المنورة<span className="text-[#4A2C5A]">.</span>
             </h1>
             <p className="text-sm sm:text-2xl text-gray-500 max-w-3xl mx-auto font-medium leading-relaxed tracking-tight px-4 mb-4">
-                تحليل المحفظة لوحدات <span className="text-[#4A2C5A]">٢ غرف، ٣ غرف، واستوديو</span> في مجمع المدينة.
+                تحليل المحفظة لوحدات <span className="text-[#4A2C5A]">٢ غرفة و صالة، ٣ غرف و صالة، واستوديو</span> في مجمع المدينة.
             </p>
             <div className="flex justify-center mb-8">
                 <div className="px-4 py-2 rounded-xl bg-[#4A2C5A]/5 border border-[#4A2C5A]/10 flex items-center gap-3">
